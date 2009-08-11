@@ -1,5 +1,5 @@
 %define name		obexfs
-%define version		0.11
+%define version		0.12
 %define beta		0
 %if %beta
 %define release		%mkrel 0.%beta.1
