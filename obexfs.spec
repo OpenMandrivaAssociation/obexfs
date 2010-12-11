@@ -2,9 +2,9 @@
 %define version		0.12
 %define beta		0
 %if %beta
-%define release		%mkrel 0.%beta.1
+%define release		%mkrel 0.%beta.2
 %else
-%define release		%mkrel 1
+%define release		%mkrel 2
 %endif
 
 Name:			%{name}
