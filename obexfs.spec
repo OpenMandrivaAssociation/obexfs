@@ -2,9 +2,9 @@
 %define version		0.12
 %define beta		0
 %if %beta
-%define release		%mkrel 0.%beta.2
+%define release		%mkrel 0.%beta.1
 %else
-%define release		%mkrel 2
+%define release		%mkrel 1
 %endif
 
 Name:			%{name}
@@ -47,3 +47,19 @@ rm -rf $RPM_BUILD_ROOT
 %doc AUTHORS COPYING ChangeLog README
 %{_bindir}/obexautofs
 %{_bindir}/obexfs
+
+
+%changelog
+* Tue Aug 11 2009 Emmanuel Andry <eandry@mandriva.org> 0.12-1mdv2010.0
++ Revision: 415164
+- New version 0.12
+
+* Mon Jun 16 2008 Funda Wang <fundawang@mandriva.org> 0.11-1mdv2009.0
++ Revision: 219547
+- New version 0.11 final
+
+* Sat Jan 12 2008 Emmanuel Andry <eandry@mandriva.org> 0.11-0.rc3.1mdv2008.1
++ Revision: 149813
+- import obexfs
+
+
