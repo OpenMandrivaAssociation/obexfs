@@ -7,6 +7,7 @@ Group:		Communications
 Url:		http://triq.net/obex/
 Source0:	http://triq.net/obexfs/%{name}-%{version}.tar.gz
 BuildRequires:	pkgconfig(fuse)
+BuildRequires:	pkgconfig(libusb)
 BuildRequires:	pkgconfig(obexftp)
 
 %description
@@ -24,9 +25,11 @@ to mobile phones.
 %setup -q
 
 %build
+export OBEXFTP_LIBS="-lfuse -lobexftp -lmulticobex -lbfb -lopenobex -lbluetooth -lusb"
 %configure2_5x
 %make
 
 %install
 %makeinstall_std
+
 
