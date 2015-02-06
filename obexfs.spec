@@ -1,7 +1,7 @@
 Summary:	FUSE based filesystem using ObexFTP
 Name:		obexfs
 Version:	0.12
-Release:	2
+Release:	3
 License:	GPLv2+
 Group:		Communications
 Url:		http://triq.net/obex/
