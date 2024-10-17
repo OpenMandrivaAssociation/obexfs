@@ -4,7 +4,7 @@ Version:	0.12
 Release:	3
 License:	GPLv2+
 Group:		Communications
-Url:		http://triq.net/obex/
+Url:		https://triq.net/obex/
 Source0:	http://triq.net/obexfs/%{name}-%{version}.tar.gz
 BuildRequires:	pkgconfig(fuse)
 BuildRequires:	pkgconfig(libusb)
