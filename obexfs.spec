@@ -6,6 +6,11 @@ License:	GPLv2+
 Group:		Communications
 Url:		https://triq.net/obex/
 Source0:	http://triq.net/obexfs/%{name}-%{version}.tar.gz
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	pkgconfig(fuse)
 BuildRequires:	pkgconfig(libusb)
 BuildRequires:	pkgconfig(obexftp)
